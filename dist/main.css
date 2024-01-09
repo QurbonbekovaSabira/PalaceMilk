@@ -1,0 +1,329 @@
+.banners {
+    width: 953px;
+    height: 353px;
+}
+
+/* .nav{
+     display: none; 
+} */
+.nav_box {
+    background: linear-gradient(97deg, #F64D4D -57.09%, #4D5EF6 101.17%);
+}
+
+.card_content,
+.newItem {
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.12);
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 14px;
+
+    &:hover {
+        transition: all 0.4s ease;
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    }
+}
+
+.card_img {
+    position: relative;
+    padding-top: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.card_sale {
+    color: #000;
+    font-size: 10px;
+    font-weight: 500;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 6px;
+    padding-right: 4px;
+    border-radius: 8px;
+    border: 0.5px solid #FF4343;
+    position: absolute;
+    top: 14px;
+    right: 0;
+}
+
+.card_price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.card_nowPrice {
+    color: #FF4343;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.card_oldPrice {
+    color: rgba(70, 70, 70, 0.55);
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.card_desc {
+    color: #000;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.oldPrice_box {
+    position: relative;
+}
+
+.card_oldPrice_line {
+    top: 4px;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.product_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.product_title {
+    color: #000;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.btn_text {
+    rotate: 90deg;
+    padding: 5px 16px;
+    background: linear-gradient(97deg, rgba(246, 77, 77, 0.10) -57.09%, rgba(77, 94, 246, 0.10) 101.17%);
+}
+
+.btn_text2 {
+    rotate: -90deg;
+    padding: 5px 16px;
+    background: linear-gradient(97deg, rgba(246, 77, 77, 0.10) -57.09%, rgba(77, 94, 246, 0.10) 101.17%);
+}
+
+.product_countBox {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    background: #FFF;
+    justify-content: space-between;
+    margin-right: 12px;
+}
+
+.nowBtn {
+    background: linear-gradient(97deg, #F64D4D -57.09%, #4D5EF6 101.17%);
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.12);
+    padding: 12px 32px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.countCard {
+
+    padding: 2px 4px;
+    width: 12px;
+    height: 12px;
+    background-color: #FF4343;
+    border-radius: 50%;
+    color: var(--UI-white, #FFF);
+    font-size: 7px;
+    font-weight: 500;
+    position: absolute;
+    top: -3px;
+    right: 10px;
+}
+
+.pushBtn {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 12px 32px;
+    background-color: transparent;
+    border: 1.5px solid #F64D4D;
+    /* box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.12); */
+}
+
+.product_character {
+    font-size: 14px;
+    font-weight: 300;
+    padding: 5px 29px;
+    border: 1px solid #F64D4D;
+    /* box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.12); */
+
+}
+
+.product_Textboxs {
+    margin-bottom: 22px;
+}
+
+.productTitle_box {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.pruductBtn_box {
+    display: flex;
+    gap: 27px;
+    margin-bottom: 26px;
+}
+
+.productCards_box {
+    padding: 10px;
+    padding-top: 0;
+    background-color: #d5e0f4a8;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    /* padding-top: -55px; */
+}
+
+.productCards_box_title {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.product_localBox_content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.product_localBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 54px;
+}
+
+/* footer */
+.footer {
+    padding: 38px 0px;
+    background: linear-gradient(97deg, #F64D4D -57.09%, #4D5EF6 101.17%);
+}
+
+.footer__text {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer__content_box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.footer__logo_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+        margin-left: -30px;
+    }
+
+    p {
+        color: #FFF;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.footer_btn_conetnt_text {
+    margin-bottom: 23px;
+}
+
+.footer_btn_conetnt_submit {
+    display: flex;
+    gap: 15px;
+
+    a {
+        padding: 9px 25px;
+        color: #FFF;
+        font-size: 12px;
+        font-style: italic;
+        font-weight: 300;
+        border: 0.7px solid #FFF;
+    }
+
+    button {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 8px 19px;
+        border: 1px solid #FFF;
+        background: #fff;
+        color: #F64D4D;
+    }
+
+    margin-bottom: 21px;
+}
+
+.footer_btn_conetnt_Subtext {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.footer_btn_conetnt_links {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+/* shop */
+.shop__title {
+    margin-bottom: 26px;
+}
+
+.shopCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 26px;
+}
+.shopBtn{
+    margin-bottom: 20px;
+}
+.shopCard_item {
+    padding: 25px 30px 38px 30px;
+    background: #FFF;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.12);
+    &:hover{
+        transition: all 0.2s ease;
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    }
+}
+
+.shopCard_item_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.shopCard_item_imgs {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}

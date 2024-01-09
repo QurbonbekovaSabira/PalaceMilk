@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="stylesheet" href="/dist/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="pt-[14px] pb-[43px]">
+        <div class="container">
+            <div class=" ml-[20%] mb-[10px]">
+                <div class="max-w-[950px] flex justify-between ">
+                    <select class="font-light text-xs" name="Покупателям" id="Покупателям">
+                        <option class="font-light text-xs" value="Покупателям">Покупателям</option>
+                        <option value="Покупателям">Покупателям</option>
+                    </select>
+                    <select class="font-light text-xs" name="Поставщикам" id="Поставщикам">
+                        <option value="Поставщикам">Поставщикам</option>
+                    </select>
+                    <p class="font-light text-xs">Частые вопросы</p>
+                    <div class="flex  text-center gap-[6px]">
+                        <img src="./img/flag.svg" alt="flag">
+                        <p class="font-light text-xs px-[5px] border-l-[1px] border-solid border-black border-r-[1px]">
+                            Русский</p>
+                        <select class="font-light text-xs" name="₽" id="₽">
+                            <option value="₽">₽</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class=" flex justify-between items-center">
+                <div class="flex gap-[32px] items-center">
+                    <a href="#">
+                        <img class="menu" class="w-[77px] h-[77px]" src="./img/menu.svg" alt="Logo">
+                    </a>
+                    <img class="w-[188px] h-[64px]" src="./img/logo.svg" alt="Logo">
+                </div>
+                <div class="relative w-[624px]">
+                    <select class=" absolute bg-gray-200 py-[11px] pl[25px] pr-[31px] font-light text-xs  top-1 left-1"
+                        name="Везде" id="Везде">
+                        <option value="Везде">Везде</option>
+                    </select>
+                    <input class="py-[10px] w-[100%] px-[110px] border-[2px] border-solid border-blue-500"
+                        type="search">
+                    <div class="absolute top-[10px] right-[23px]">
+                        <img src="./img/search.svg" alt="search">
+                    </div>
+                </div>
+                <div class="flex gap-[20px]">
+                    <div class="flex flex-col text-center gap-[5px]">
+                        <img class="w-[17px] h-[17px] ml-auto mr-auto" src="./img/userIcon.svg" alt="user">
+                        <p class="font-normal text-sm ">Войти</p>
+                    </div>
+                    <div class="flex flex-col text-center gap-[5px]">
+                        <img class="w-[17px] h-[17px] ml-auto mr-auto" src="./img/likeIcon.svg" alt="like">
+                        <p class="font-normal text-sm ">Избранное</p>
+                    </div>
+                    <div class="counterCard"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </header>
+    <main>
+
+        <section>
+            <div class="container">
+                <div class="flex gap-[10px] mb-[18px]">
+                    <p class="font-light text-xs">Одежда, обувь и аксессуары</p>
+                    <img src="./img/arrow.svg" alt="arrow">
+                    <p class="font-light text-xs">Мужчинам</p>
+                    <img src="./img/arrow.svg" alt="arrow">
+                    <p class="font-light text-xs">Одежда</p>
+                    <img src="./img/arrow.svg" alt="arrow">
+                    <p class="font-light text-xs">Футболки и майки</p>
+                    <img src="./img/arrow.svg" alt="arrow">
+                    <p class="font-light text-xs">Футболки </p>
+                    <img src="./img/arrow.svg" alt="arrow">
+                    <p class="font-light text-xs">Marple </p>
+                    <img src="./img/arrow.svg" alt="arrow">
+                    <p class="font-light text-xs">Graphic Hypnotize </p>
+                    <img src="./img/arrow.svg" alt="arrow">
+                    <p class="font-light text-xs">Футболка с дизайнерским принтом Graphic Hypnotize </p>
+                </div>
+                <div class="flex justify-end gap-[5px] mb-[7]">
+                    <span class="text-xs font-light ">Артикул:</span>
+                    <p class="text-xs font-normal "> 123654785</p>
+                </div>
+                <div class="content_box flex gap-[130px]">
+                    <div>
+                        <div class="product_imgBox w-[650px] h-[650px] mb-[44px]">
+                        </div>
+                        <div class="product_content_img flex gap-[8px]"></div>
+                    </div>
+                    <div>
+                        <div class="product_contentBox">
+                        </div>
+                        <div class="product_contentBox_img flex gap-[21px] mb-[23px]"></div>
+                        <div class="product_Productsizes flex gap-[5px] items-center mb-[14px]" ></div>
+                        <div class="product_sizeBox flex gap-[10px] mb-[36px]"></div>
+                        <div class="product_btnBox flex mb-[24px]"></div>
+                       <div class="product_btnBox_second"></div>
+                        <div class="product_place">
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer__container">
+          <div class="footer__content_box">
+            <div>
+                <p class="font-medium text-base text-white">Покупателям</p>
+                <div class="footer__text">
+                    <p class="font-normal text-sm text-white">Как это работает </p>
+                    <p class="font-normal text-sm text-white">Защита покупателя</p>
+                    <p class="font-normal text-sm text-white"> Условия оплаты </p>
+                    <p class="font-normal text-sm text-white"> Условия использования </p>
+                    <p class="font-normal text-sm text-white"> Регистрация аккаунта </p>
+                </div>
+            </div>
+            <div>
+                <p class="font-medium text-base text-white">Поставщикам</p>
+                <div class="footer__text">
+                    <p class="font-normal text-sm text-white">Как стать продавцом </p>
+                    <p class="font-normal text-sm text-white"> Правила участия </p>
+                    <p class="font-normal text-sm text-white"> Личный кабинет продавца </p>
+                </div>
+            </div>
+            <div>
+                <p class="font-medium text-base text-white">О компании</p>
+                <div class="footer__text">
+                    <p class="font-normal text-sm text-white">О PlaceMik </p>
+                    <p class="font-normal text-sm text-white"> Новости </p>
+                    <p class="font-normal text-sm text-white"> Часто задаваемые вопросы </p>
+                    <p class="font-normal text-sm text-white"> Служба поддержки </p>
+                    <p class="font-normal text-sm text-white"> Сообщить о нарушении авторских прав</p>
+                </div>
+            </div>
+            <div class="footer_btn_conetnt">
+                <p class="footer_btn_conetnt_text font-normal text-sm text-white">Хотите быть в курсе последних новостей и акций? </p>
+                <div class="footer_btn_conetnt_submit">
+                    <a class="" href="#">konstantinkonstantinov@yandex.ru</a>
+                    <button type="submit">Подписаться</button>
+                </div>
+                <p class="footer_btn_conetnt_Subtext">Мы в соцсетях</p>
+                <div class="footer_btn_conetnt_links ">
+                    <a href="#">
+                        <img src="./img/WK.svg" alt="Wk Icon">
+                    </a>
+                    <a href="#">
+                        <img src="./img/instagram.svg" alt="Wk Icon">
+                    </a>
+                    <a href="#">
+                        <img src="./img/facebook.svg" alt="Wk Icon">
+                    </a>
+                </div>
+            </div>
+          </div>
+          <div class="footer__logo_box">
+            <a href="#">
+                <img src="./img/logoLight.svg" alt="Logo">
+            </a>
+            <p>© PlaceMik.ru, 2021</p>
+          </div>
+        </div>
+    </footer>
+    <script src="./js/about.js"></script>
+</body>
+
+</html>
