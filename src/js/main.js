@@ -16,6 +16,7 @@ const getData = async (url) => {
     console.log(error);
   }
 };
+
 const rendBanner = async () => {
   const data = await getData("banner");
   banner.innerHTML = data?.map(
